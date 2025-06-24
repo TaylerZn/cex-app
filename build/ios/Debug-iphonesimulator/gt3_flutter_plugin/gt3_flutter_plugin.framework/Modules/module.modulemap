@@ -1,0 +1,6 @@
+framework module gt3_flutter_plugin {
+  umbrella header "gt3_flutter_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,56 @@
+{
+  "quick_entry": [
+    {
+      "title": "public18",
+      "icon": "assets/images/home/quick_entry/trade_4.svg",
+      "route": "/follow-orders",
+      "logo": "assets/images/home/quick_entry/hot.png"
+    },
+    {
+      "title": "assets35",
+      "icon": "assets/images/home/quick_entry/asset_1.svg",
+      "route": "/recharge",
+      "requireLogin": true
+    },
+    {
+      "title": "other35",
+      "icon": "assets/images/home/quick_entry/asset_3.svg",
+      "route": "/otc-c2c",
+      "logo": "assets/images/home/quick_entry/free.png"
+    },
+    {
+      "title": "user35",
+      "icon": "assets/images/home/quick_entry/active_2.svg",
+      "route": "/my-invite",
+      "requireLogin": true
+    },
+    {
+      "title": "other48",
+      "icon": "assets/images/home/quick_entry/trade_1.svg",
+      "route": "/market/standard"
+    },
+    {
+      "title": "trade5",
+      "icon": "assets/images/home/quick_entry/trade_2.svg",
+      "route": "/market/feature"
+    },
+    {
+      "title": "other39",
+      "icon": "assets/images/home/quick_entry/active_1.svg",
+      "route": "/coupon_center",
+      "logo": "assets/images/home/quick_entry/hot.png",
+      "requireLogin": true
+    },
+    {
+      "title": "assets64",
+      "icon": "assets/images/home/quick_entry/asset_2.svg",
+      "route": "/withdraw",
+      "requireLogin": true
+    },
+    {
+      "title": "trade289",
+      "icon": "assets/images/home/quick_entry/trade_11.svg",
+      "route": "/immediate-exchange"
+    }
+  ]
+}

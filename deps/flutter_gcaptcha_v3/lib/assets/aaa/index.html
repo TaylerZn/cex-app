@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reCAPTCHA v2 Invisible</title>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+  <div id="recaptcha"></div> <!-- 这个容器将渲染reCAPTCHA v2 Invisible -->
+
+  <script>
+    // 获取URL参数的函数
+    function getUrlParameter(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name) || '';
+    }
+
+    // 初始化reCAPTCHA
+    function initRecaptcha(siteKey) {
+      console.log('Initializing reCAPTCHA with siteKey:', siteKey);
+
+      // 渲染reCAPTCHA v2 Invisible
+      grecaptcha.render('recaptcha', {
+        sitekey: siteKey,
+        size: 'invisible',
+        callback: function (token) {
+          console.log('reCAPTCHA executed, token received:', token);
+          // 在这里处理token，例如发送到服务器
+          Captcha.postMessage(token);
+        }
+      });
+
+      // 手动执行reCAPTCHA
+      grecaptcha.execute();
+    }
+
+    // 页面加载完成后执行
+    window.onload = function () {
+      console.log('Window loaded, getting siteKey...');
+      const siteKey = getUrlParameter('siteKey');
+      if (siteKey) {
+        initRecaptcha(siteKey);
+      } else {
+        console.error('No siteKey provided in URL parameters.');
+      }
+    };
+  </script>
+</body>
+
+</html>

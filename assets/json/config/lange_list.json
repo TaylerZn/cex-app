@@ -1,0 +1,30 @@
+{
+  "langList": [
+    {
+      "id": 102,
+      "type": 2,
+      "langKey": "en_US",
+      "langName": "English",
+      "fileName": "",
+      "status": 1,
+      "nowFileAddress": "https://s3.ap-northeast-1.amazonaws.com/tradog-test/exchange_app_en_US.json",
+      "backupFileAddress": "https://chainup-test.s3.ap-northeast-1.amazonaws.com/language-conf/exchange/APP/en_US.json",
+      "sort": 2,
+      "ctime": 1678350971000,
+      "mtime": 1716968963000
+    },
+    {
+      "id": 103,
+      "type": 2,
+      "langKey": "el_GR",
+      "langName": "繁體中文",
+      "fileName": "",
+      "status": 1,
+      "nowFileAddress": "https://s3.ap-northeast-1.amazonaws.com/tradog-test/exchange_app_el_GR.json",
+      "backupFileAddress": "https://chainup-test.s3.ap-northeast-1.amazonaws.com/language-conf/exchange/APP/el_GR.json",
+      "sort": 3,
+      "ctime": 1678350971000,
+      "mtime": 1716968955000
+    }
+  ]
+}

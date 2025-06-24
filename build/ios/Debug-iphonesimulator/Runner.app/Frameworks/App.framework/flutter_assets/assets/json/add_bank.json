@@ -1,0 +1,40 @@
+{
+  "data" : [
+    {
+      "question" : "c2c52",
+      "mandatory": true,
+      "type" : 1,
+      "format": 0,
+      "hintText": "c2c53",
+      "key" : "userName",
+      "errorTxt": "c2c180"
+    },
+    {
+      "question" : "c2c54",
+      "mandatory": true,
+      "type" : 1,
+      "format": 0,
+      "keyboardType": 1,
+      "hintText": "c2c55",
+      "key" : "account"
+    },
+    {
+      "question" : "c2c57",
+      "mandatory": true,
+      "type" : 1,
+      "format": 0,
+      "key" : "bankName",
+      "value" : "",
+      "hintText": "c2c58"
+    },
+    {
+      "question" : "c2c61",
+      "mandatory": false,
+      "type" : 4,
+      "format": 0,
+      "key": "remark",
+      "hintText": "c2c181"
+    }
+
+  ]
+}

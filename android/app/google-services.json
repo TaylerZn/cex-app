@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "393724708373",
+    "project_id": "tradingcex",
+    "storage_bucket": "tradingcex.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393724708373:android:1f615b82185fa9aa94701c",
+        "android_client_info": {
+          "package_name": "com.trading.cex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393724708373-itui0o61prhc8md4ce94ulqo3fu0gk19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trading.cex",
+            "certificate_hash": "face250041efd118e5c0c320bab939b806b4c6f1"
+          }
+        },
+        {
+          "client_id": "393724708373-ncpsp2hte0m7sc4c78auhl0j5ca3h04i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfjFoGOCB8FlGGur4-VjCqPvNUcs7d-BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393724708373-ncpsp2hte0m7sc4c78auhl0j5ca3h04i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "393724708373-m2uiv5kgfslrcu18l59hnr23jjt0546b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trading.cex"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

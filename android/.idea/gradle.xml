@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../../../SDK/flutter/packages/flutter_tools/gradle" name="gradle">
+                <projects>
+                  <project path="$PROJECT_DIR$/../../../SDK/flutter/packages/flutter_tools/gradle" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/.pub-cache/git/betterplayer-e45f447b6d3ae6a3404ddfd9663f8aeae864ddec/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/app_settings-5.1.1/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/appsflyer_sdk-6.15.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/device_apps-2.2.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/device_info_plus-8.2.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/ffmpeg_kit_flutter_min_gpl-5.1.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_auth-5.2.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_core-3.4.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_crashlytics-4.1.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_messaging-15.1.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.5/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.2.4/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.19/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.23/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/gt3_flutter_plugin-0.0.9/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_editor_common-1.2.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_gallery_saver-2.0.3/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+1/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/package_info_plus-8.1.3/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_android-2.2.4/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/permission_handler_android-12.0.13/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/photo_manager-3.2.3/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/qr_code_scanner-1.0.1/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/scan-1.6.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/share_plus-7.2.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/sign_in_with_apple-6.1.4/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-2.0.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/uni_links-0.5.1/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/video_compress-3.1.3/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/video_player_android-2.4.14/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/video_thumbnail-0.5.3/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/wakelock-0.6.2/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/webview_flutter_android-3.16.3/android" />
+            <option value="$PROJECT_DIR$/../../../SDK/flutter/packages/flutter_tools/gradle" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

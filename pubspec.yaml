@@ -1,0 +1,267 @@
+name: nt_app_flutter
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.1.50+4
+
+environment:
+  sdk: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  get: 4.6.6
+  get_storage: ^2.0.3
+  # 网络相关
+  dio: ^5.3.0
+  retrofit: ">=4.0.0 <5.0.0"
+  # 屏幕适配
+  flutter_screenutil: ^5.9.0
+  # Dart常用工具类库
+  common_utils: ^2.1.0
+  # 下拉刷新和上拉加载
+  pull_to_refresh: ^2.0.0
+  easy_refresh: ^3.4.0
+  #启动url方案
+  url_launcher: 6.2.4
+  #存储
+#  shared_preferences: ^2.1.0
+  #动画效果库
+  flutter_spinkit: ^5.2.0
+  #设备信息
+  device_info_plus: ^8.2.2
+  # package_info_plus: ^3.1.2
+  #应用信息
+  package_info_plus: ^8.0.0
+  # package_info_plus: ^8.0.0
+  #抽屉
+#  flutter_slidable: ^2.0.0
+  #渐变文案
+  simple_gradient_text: ^1.3.0
+  # JSON 序列化
+  json_annotation: ^4.6.0
+  # 弹框
+  flutter_easyloading: ^3.0.5
+  # 截图
+  screenshot: ^3.0.0
+  # 扫码
+  scan: ^1.6.0
+  qr_code_scanner: ^1.0.1
+  # 图片加载
+  extended_image: ^8.2.0
+  # 路由生成器
+#  ff_annotation_route_core: ^2.0.4
+#  ff_annotation_route_library: ^3.0.0
+  # 苹果登陆
+  sign_in_with_apple: ^6.1.2
+  #谷歌登陆
+  google_sign_in: ^6.2.1
+
+  # 瀑布流
+  loading_more_list: ^6.0.0
+  # 扩展文本字段
+  extended_text_field: ^15.0.1
+  # 拉动刷新效果的小部件。
+  pull_to_refresh_notification: ^3.1.0
+  # 提供了加载、保存和操作各种图像文件格式的能力
+  image: ^4.1.7
+
+  # 图像编辑器
+  image_editor: ^1.3.0
+  # 动画效果按钮
+  like_button: ^2.0.4
+  # 从图像库中选取图像，并使用相机拍摄新照片
+  image_picker: ^1.0.7
+  # 滑块
+  syncfusion_flutter_core: ^24.2.9
+  syncfusion_flutter_sliders:
+    path: deps/syncfusion_flutter_sliders
+  # webview网页加载器
+  webview_flutter: ^4.0.7
+  # 卡片轮播
+  card_swiper: ^3.0.1
+  # 将图像压缩
+  flutter_image_compress: ^2.1.0
+  # 权限
+  permission_handler: ^11.3.0
+  # 文字高亮
+  substring_highlight: ^1.0.33
+  # 选择器
+#  flutter_picker:
+#    git: https://github.com/yangyxd/flutter_picker
+  # 处理Deep Links
+  uni_links: ^0.5.1
+  # 二维码
+  qr_flutter: ^4.0.0
+  # 精度
+  decimal: ^2.3.3
+  # abcd列表跳转
+  azlistview: ^2.0.0
+  # sliver 工具
+  sliver_tools: ^0.2.12
+  # 展开或折叠
+  expandable: ^5.0.1
+  #虚线
+  dotted_border: ^2.1.0
+  # json动画
+  lottie: ^3.0.0
+  # 保存图片
+  image_gallery_saver: ^2.0.3
+  # 设备信息
+  device_apps: ^2.1.0
+  # 分享
+  share_plus: ^7.2.2
+  # 自适应文本text
+  auto_size_text: ^3.0.0
+  # 根据 globalkey 获取widget rect
+  rect_getter: ^1.1.0
+  # 视频压缩
+  video_compress: ^3.1.2
+  # 使用类似 html标签样式 创建富文本
+  styled_text: ^8.1.0
+  # 特殊输入框
+  pinput: ^4.0.0
+  # switch
+  flutter_switch: ^0.3.2
+  # sm加密
+  dart_sm: ^0.1.4
+  # 视频缩略图
+  video_thumbnail: ^0.5.3
+  # 极验
+  gt3_flutter_plugin: ^0.0.9
+  # 谷歌人机验证
+  flutter_gcaptcha_v3:
+    path: deps/flutter_gcaptcha_v3
+  flutter_recaptcha_v2_compat:
+    path: deps/flutter_recaptcha_v2
+  # wx图、视频选择器
+  wechat_assets_picker:
+    path: deps/wechat_assets_picker
+  # 播放器
+  # better_player: ^0.0.83
+  better_player:
+    git:
+      url: https://github.com/matthewrice345/betterplayer.git
+      ref: Issue1057
+  video_editor:
+    path: deps/video_editor
+  k_chart:
+    path: deps/k_chart
+  # 高度可定制的图表库
+  fl_chart: ^0.66.2
+  #svg
+  flutter_svg: ^2.0.9
+  # 暂时解决photo_manager官方问题
+  photo_manager_image_provider: ^2.1.0
+  uuid: ^3.0.4
+  connectivity_plus: ^5.0.2
+  crypto: ^3.0.0
+  #文字展开折叠
+  expandable_text: ^2.3.0
+  modal_bottom_sheet: ^3.0.0
+  # 通知
+  another_flushbar: ^1.12.30
+  #骨架屏
+  shimmer: ^3.0.0
+  # 可见性检测器
+  visibility_detector: ^0.3.3
+  web_socket_channel: ^2.4.3
+#  flutter_keyboard_visibility: ^6.0.0
+  # 重新启动应用程序
+  #  restart_app: ^1.2.1
+  flutter_popup: ^3.3.0
+  logger: ^2.3.0
+  flutter_local_notifications: ^17.1.2
+  app_settings: ^5.1.1
+  flutter_intro: ^3.2.3
+  flutter_dotenv: ^5.1.0
+  flutter_draggable_gridview: ^0.0.12
+  # 扩展嵌套滚动视图#
+  extended_nested_scroll_view: ^6.1.0
+  flutter_picker: ^2.1.0
+  flutter_card_swiper: ^7.0.1
+  appsflyer_sdk: ^6.15.1
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  firebase_messaging: ^15.1.0
+  firebase_crashlytics: ^4.1.0
+  # 解析JWT
+  jwt_decoder: ^2.0.1
+  # 截流防抖
+  easy_debounce: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  retrofit_generator: ">=5.0.0 <6.0.0"
+  build_runner: ">=2.3.0 <4.0.0"
+  json_serializable:
+    ^6.7.1
+  # 识别修复 代码
+  dart_code_metrics_presets: ^2.9.0
+
+
+
+dependency_overrides:
+  # 暂时解决photo_manager官方问题
+  photo_manager: 3.2.3
+  win32: 3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - developer.json
+    - .env
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/json/
+    - assets/json/quick_entry/
+    - assets/json/tab/
+    - assets/json/config/
+    - assets/json/community/
+    - assets/images/default/
+    - assets/images/my/
+    - assets/images/my/setting/
+    - assets/images/my/usertag/
+    - assets/images/tab/
+    - assets/images/assets/
+    - assets/images/contract/
+    - assets/images/commodity/
+    - assets/images/trade/
+    - assets/images/community/
+    - assets/images/community/community_message/
+    - assets/images/community/community_post_tool/
+    - assets/images/home/
+    - assets/images/home/quick_entry/
+    - assets/images/spots/
+    - assets/images/flow/
+    - assets/images/currency/
+    - assets/images/message/
+    - assets/images/otc/
+    - assets/images/notify/
+    - assets/images/otc/c2c/
+    - assets/images/otc/b2c/
+    - assets/images/activity/
+    - assets/locales/
+
+  fonts:
+    - family: Ark Sans SC
+      fonts:
+        # - asset: assets/fonts/Ark_Sans_SC_Light.ttf
+        - asset: assets/fonts/Ark Sans TC-Light.ttf
+          weight: 300
+        # - asset: assets/fonts/Ark_Sans_SC_Regular.ttf
+        - asset: assets/fonts/Ark Sans TC Regular.ttf
+          weight: 400
+        # - asset: assets/fonts/Ark_Sans_SC_Medium.ttf
+        - asset: assets/fonts/Ark Sans TC-Medium.ttf
+          weight: 500
+        # - asset: assets/fonts/Ark_Sans_SC_Semibold.ttf
+        - asset: assets/fonts/Ark Sans TC-Semibold.ttf
+          weight: 600
+       

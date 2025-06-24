@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reCAPTCHA</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+  <script>
+    var scriptAdded = false;
+
+    function executeCaptcha(siteKey, action) {
+      if (typeof Captcha !== "undefined") {
+        grecaptcha.ready(function () {
+          grecaptcha.execute(siteKey, { action: action }).then(function (token) {
+            Captcha.postMessage(token);
+          });
+        });
+      } else {
+        setTimeout(function () { executeCaptcha(siteKey, action); }, 100);
+      }
+    }
+
+    function readyCaptcha(dataSiteKey, action) {
+      if (!scriptAdded) {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = `https://www.google.com/recaptcha/api.js?render=${dataSiteKey}`;
+        script.onload = function () {
+          executeCaptcha(dataSiteKey, action);
+        };
+        document.head.appendChild(script);
+        scriptAdded = true;
+      }
+    }
+
+    // 获取URL参数
+    function getUrlParameter(name) {
+      name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+      var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+      var results = regex.exec(location.search);
+      return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+    // 自动执行 readyCaptcha 并传递 siteKey 和 action
+    document.addEventListener("DOMContentLoaded", function () {
+      var action = getUrlParameter('action') || 'unknown';
+      readyCaptcha('6LcP6uYpAAAAAAnNN-2pQ9P9F5GqoQMCgBFZ3HeN', action);  // 替换为你的 site key
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tradingcex",
+          "appId": "1:393724708373:android:1f615b82185fa9aa94701c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "tradingcex",
+          "appId": "1:393724708373:ios:9e87e27e2dc0383b94701c",
+          "uploadDebugSymbols": true,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tradingcex",
+          "configurations": {
+            "android": "1:393724708373:android:1f615b82185fa9aa94701c",
+            "ios": "1:393724708373:ios:9e87e27e2dc0383b94701c"
+          }
+        }
+      }
+    }
+  }
+}

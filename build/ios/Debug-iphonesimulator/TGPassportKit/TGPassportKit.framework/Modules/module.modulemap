@@ -1,0 +1,6 @@
+framework module TGPassportKit {
+  umbrella header "TGPassportKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

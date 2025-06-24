@@ -1,0 +1,154 @@
+{
+  "quick_entry": [
+    {
+      "title": "other34",
+      "list": [
+        {
+          "title": "assets35",
+          "icon": "assets/images/home/quick_entry/asset_1.svg",
+          "route": "/recharge",
+          "requireLogin": true
+        },
+        {
+          "title": "assets64",
+          "icon": "assets/images/home/quick_entry/asset_2.svg",
+          "route": "/withdraw",
+          "requireLogin": true
+        },
+        {
+          "title": "other36",
+          "icon": "assets/images/home/quick_entry/asset_4.svg",
+          "route": "/asset_transfer",
+          "requireLogin": true
+        },
+        {
+          "title": "other37",
+          "icon": "assets/images/home/quick_entry/asset_5.svg",
+          "route": "/wallet-history",
+          "requireLogin": true
+        }
+      ]
+    },
+    {
+      "title": "assets6",
+      "list": [
+        {
+          "title": "other48",
+          "icon": "assets/images/home/quick_entry/trade_1.svg",
+          "route": "/market/standard"
+        },
+        {
+          "title": "trade5",
+          "icon": "assets/images/home/quick_entry/trade_2.svg",
+          "route": "/market/feature"
+        },
+        {
+          "title": "public18",
+          "icon": "assets/images/home/quick_entry/trade_4.svg",
+          "route": "/follow-orders",
+          "logo":"assets/images/home/quick_entry/hot.png"
+        },
+        {
+          "title": "markets32",
+          "icon": "assets/images/home/quick_entry/trade_5.svg",
+          "route": "/market/cryptocurrency"
+        },
+        {
+          "title": "trade289",
+          "icon": "assets/images/home/quick_entry/trade_11.svg",
+          "route": "/immediate-exchange"
+        },
+        {
+          "title": "markets11",
+          "icon": "assets/images/home/quick_entry/trade_6.svg",
+          "route": "/market/stock"
+        },
+        {
+          "title": "markets12",
+          "icon": "assets/images/home/quick_entry/trade_7.svg",
+          "route": "/market/zhi_shu"
+        },
+        {
+          "title": "markets13",
+          "icon": "assets/images/home/quick_entry/trade_8.svg",
+          "route": "/market/foreign_exchange"
+        },
+        {
+          "title": "markets14",
+          "icon": "assets/images/home/quick_entry/trade_9.svg",
+          "route": "/market/bulk"
+        },
+        {
+          "title": "ETF",
+          "icon": "assets/images/home/quick_entry/trade_10.svg",
+          "route": "/market/etf"
+        },
+        {
+          "title": "otc2",
+          "icon": "assets/images/home/quick_entry/asset_6.svg",
+          "route": "/otc-b2c"
+        },
+        {
+          "title": "other35",
+          "icon": "assets/images/home/quick_entry/asset_3.svg",
+          "route": "/otc-c2c",
+          "logo":"assets/images/home/quick_entry/free.png"
+        }
+      ]
+    },
+    {
+      "title": "other38",
+      "list": [
+        {
+          "title": "other49",
+          "icon": "assets/images/home/quick_entry/active_4.svg",
+          "route": "/weal-index"
+        },
+        {
+          "title": "other39",
+          "icon": "assets/images/home/quick_entry/active_1.svg",
+          "route": "/coupon_center",
+          "requireLogin": true,
+          "logo":"assets/images/home/quick_entry/hot.png"
+        },
+        {
+          "title": "user35",
+          "icon": "assets/images/home/quick_entry/active_2.svg",
+          "route": "/my-invite",
+          "requireLogin": true
+        },
+        {
+          "title": "public34",
+          "icon": "assets/images/home/quick_entry/active_3.svg",
+          "route": "/share",
+          "requireLogin": true
+        }
+      ]
+    },
+    {
+      "title": "user118",
+      "list": [
+        {
+          "title": "user94",
+          "icon": "assets/images/home/quick_entry/other_1.svg",
+          "route": "/about_us"
+        },
+        {
+          "title": "user85",
+          "icon": "assets/images/home/quick_entry/other_2.svg",
+          "route": "/online_service"
+        },
+        {
+          "title": "user86",
+          "icon": "assets/images/home/quick_entry/other_3.svg",
+          "route": "/help_center"
+        },
+        {
+          "title": "user92",
+          "icon": "assets/images/home/quick_entry/other_4.svg",
+          "route": "/report"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "question": "c2c94",
+      "mandatory": true,
+      "type": 0,
+      "format": 0,
+      "hintText": "c2c95",
+      "key": "isOtherPlatformMerchant",
+      "error": "请选择平台拥有商家账户",
+      "optionList": [
+        "trade46",
+        "trade99"
+      ]
+    },
+    {
+      "question": "c2c96",
+      "mandatory": true,
+      "type": 1,
+      "format": 0,
+      "error": "请选择平台名称",
+      "hintText": "c2c140",
+      "key": "otherPlatformName",
+      "optionList": [
+        "认证平台"
+      ]
+    },
+    {
+      "question": "c2c98",
+      "mandatory": true,
+      "type": 2,
+      "format": 0,
+      "key": "otherPlatformAccountImages",
+      "hintText": "",
+      "optionList": []
+    },
+    {
+      "question": "c2c99",
+      "mandatory": true,
+      "type": 0,
+      "format": 0,
+      "key": "applyMerchantType",
+      "hintText": "c2c95",
+      "optionList": [
+        "c2c66"
+      ]
+    },
+    {
+      "question": "c2c100",
+      "mandatory": true,
+      "type": 1,
+      "format": 0,
+      "key": "phone",
+      "regex": 0,
+      "hintText": "c2c137",
+      "optionList": []
+    },
+    {
+      "question": "c2c101",
+      "mandatory": true,
+      "type": 1,
+      "format": 0,
+      "key": "email",
+      "regex": 1,
+      "hintText": "c2c139",
+      "optionList": []
+    },
+    {
+      "question": "c2c102",
+      "key": "tgAccount",
+      "type": 1,
+      "format": 0,
+      "hintText": "c2c43",
+      "optionList": []
+    },
+    {
+      "question": "c2c103",
+      "type": 1,
+      "format": 0,
+      "key": "discordAccount",
+      "hintText": "c2c43",
+      "optionList": []
+    },
+    {
+      "question": "c2c104",
+      "type": 1,
+      "format": 0,
+      "key": "twitterAccount",
+      "hintText": "c2c43",
+      "optionList": []
+    }
+  ]
+}

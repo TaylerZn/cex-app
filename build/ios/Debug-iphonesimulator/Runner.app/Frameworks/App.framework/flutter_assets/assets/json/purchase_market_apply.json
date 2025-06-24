@@ -1,0 +1,122 @@
+{
+  "data" : [
+    {
+      "question" : "1.是否在其他OTC平台拥有商家账户",
+      "mandatory": true,
+      "type" : 0,
+      "format": 0,
+      "hintText": "请选择",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "tes2222t"
+        },
+        {
+          "fieldKey" : "test22",
+          "fieldValue" : "test123"
+        }
+       ]
+    },
+    {
+      "question" : "2.平台名称",
+      "mandatory": true,
+      "type" : 1,
+      "format": 0,
+      "hintText": "请输入平台名称",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test"
+        }
+      ]
+    },
+    {
+      "question" : "3.平台商家账户详情(包括账户ID,身份认证,成交单数,成交率等",
+      "mandatory": true,
+      "type" : 2,
+      "format": 0,
+      "hintText": "",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test"
+        }
+      ]
+    },
+    {
+      "question" : "4.申请成为商家类型",
+      "mandatory": true,
+      "type" : 0,
+      "format": 0,
+      "hintText": "请选择",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test33"
+        }
+      ]
+    },
+    {
+      "question" : "5.手机号码",
+      "mandatory": true,
+      "type" : 1,
+      "format": 0,
+      "hintText": "请输入您的手机号码",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test33"
+        }
+      ]
+    },
+    {
+      "question" : "6.邮箱",
+      "mandatory": true,
+      "type" : 1,
+      "format": 0,
+      "hintText": "请输入您的邮箱",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test"
+        }
+      ]
+    },{
+      "question" : "7.Telegram账号(选填)",
+
+      "type" : 1,
+      "format": 0,
+      "hintText": "请输入",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test"
+        }
+      ]
+    },{
+      "question" : "8.Discord账号(选填)",
+      "type" : 1,
+      "format": 0,
+      "hintText": "请输入",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test"
+        }
+      ]
+    },
+    {
+      "question" : "9.Twitter 账号(选填)",
+      "type" : 1,
+      "format": 0,
+      "hintText": "请输入",
+      "optionList" : [
+        {
+          "fieldKey" : "test",
+          "fieldValue" : "test"
+        }
+      ]
+    }
+
+  ]
+}
